@@ -7,6 +7,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 
@@ -27,13 +28,20 @@
     </nav>
   </header>
 
-  <section class="homepage">
+  <section class="homepage" data-aos="zoom-in">
     <div class="text-section">
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>
         Fylo stores your most important files in one secure location. Access them wherever you need, share and
         collaborate with friends, family, and co-workers.
       </p>
+      
+    <div class="min-screen-form">
+      <form>
+        <input type="email" placeholder="Enter your email">
+      </form>
+      <button class="get-started min-screen-btn">Get Started</button>
+    </div>
     </div>
 
     <div class="img-section">
@@ -42,16 +50,11 @@
   </section>
 
   <section class="curved-section">
-    <h1>Stay productive, wherever you are</h1>
-    <p>
-      Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage
-      needs.
-    </p>
-    <p>
-      Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments
-      required!
-    </p>
-
+    <div class="min-screen-curved-section">
+      <div class="img-curved-section">
+        <img src="/images/illustration-2.svg" alt="section-illustration">
+      </div>
+    </div>
     <p class="fylo-example">See how Fylo works</p>
     <img src="/images/icon-arrow.svg" alt="">
 
@@ -89,7 +92,7 @@
         our support team would be happy to help you.</p>
     </div>
 
-    <div class="access-form">
+    <div class="max-screen-form">
       <form>
         <input type="email" placeholder="email@example.com">
       </form>
@@ -157,6 +160,11 @@
       Coded by <a href="https://github.com/Prime-xyz">Isaac Prime</a>.
     </p>
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
