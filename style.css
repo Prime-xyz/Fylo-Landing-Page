@@ -135,8 +135,10 @@ ul li a{
     color:white;
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
-    box-shadow: 2px 4px 6px 2px rgb(232, 232, 232);
+    box-shadow: 0rem 0.17rem 0.5rem 0.1rem rgba(0, 0, 0, 0.295);
 }
+
+/* CURVED SECTION */
 
 .curved-img{
     width:100%;
@@ -161,6 +163,7 @@ ul li a{
 
 .curved-section-content{
     padding-inline:1.5rem;
+    padding-bottom:5rem;
     background-color:var(--section2-background-color);
 }
 
@@ -187,9 +190,9 @@ ul li a{
     display:flex;
     align-items: center;
     justify-content: center;
-    gap:0.01rem;
+    /* gap:0.01rem; */
     border-bottom:2px solid var(--fylo-exp-color);
-    width:65%;
+    max-width:58%;
     margin-inline:auto;
     padding-bottom:-2rem;
 }
@@ -198,6 +201,8 @@ ul li a{
     display:block;
     width:27px;
     margin-top:-0.4rem;
+    border-radius:5rem;
+    box-shadow:0rem 0rem 0.9rem -0.2rem var(--fylo-exp-color);
 } 
 
 .fylo-example-txt{
@@ -210,15 +215,67 @@ ul li a{
 }
 
 .testimonial{
+    box-shadow:0rem 0rem 0.7rem 0.4rem rgba(0, 0, 0, 0.047);
+    border-radius:1rem;
     font-family: 'Open Sans', sans-serif;
+    font-size:1.5rem;
+    padding-block:1.1rem;
+    padding-inline:2rem;
+    max-width:400px;
+    margin-inline:auto;
+    margin-block:3rem;
+    padding-bottom:1rem;
 }
 
-.testimonial p span{
-    font-family: 'Raleway', sans-serif;
+.testimonial img{
+    display:block;
+    padding-bottom:0.5rem;
 }
 
-.testimonial span{
+.testimonial .quote-img{
+    width:23px;
+}
 
+span.testimonial-txt{
+    font-family: 'Open Sans', sans-serif; 
+    color:var(--footer-section-bg);
+    font-size:1.2rem;
+}
+
+.testimonial-image {
+    width:50px;
+    height:auto;
+    margin-top:1rem;
+}
+
+.testimonial-image  img{
+    display:block;
+    width:100%;
+    height:auto;
+    border-radius:50%;
+}
+
+.testimonial-footer{
+    font-size:1rem;
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    margin-top:0.4rem;
+}
+
+p.name{
+    font-size:1.2rem;
+    font-size: 'Open sans', sans-serif;  
     font-weight:bolder;
-    font-size:4rem;
+    text-transform:capitalize;
+    color: var(--footer-section-bg);
 }
+
+p.stat{
+    font-size:0.85rem;
+    font-size: 'Open sans', sans-serif;  
+    text-transform:capitalize;
+    color: var(--footer-section-bg);
+}
+
+/* SECTION THREE */
