@@ -8,6 +8,8 @@
     --fylo-exp-color : hsl(170, 45%, 43%);
     --section2-background-color : #f6f6fe;
     --paragraph-color: hsl(0, 0%, 75%);
+    --heading-font : 'Raleway', sans-serif;
+    --body-font : 'Open Sans', sans-serif;
 }
 
 /* font-family: 'Raleway', sans-serif; 
@@ -29,7 +31,7 @@ body{
 }
 
 header{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--heading-font);
 }
 
 .logo{
@@ -72,7 +74,7 @@ ul li a{
 }
 
 .homepage .text-section h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--heading-font);
     font-size:1.7rem;
     color: var(--footer-section-bg);
     text-align:center;
@@ -83,7 +85,7 @@ ul li a{
 
 .homepage .text-section p{
     font-size:1rem;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: var(--body-font);
     color:var(--footer-section-bg);
     text-align:center;
     width:90%;
@@ -107,9 +109,9 @@ ul li a{
     display:block;
     min-width:90%;
     margin-inline:auto;
-    font-family:'Raleway', sans-serif;
-    padding-inline:0.5rem;
-    padding-block:0.6rem;
+    font-family:var(--heading-font);
+    padding-inline:0.65rem;
+    padding-block:0.85rem;
     border-radius:0.2rem;
     border:1px solid var(--access-section-bg);
     box-shadow:1px 1.2px 1px rgba(0, 0, 0, 0.23);
@@ -133,7 +135,7 @@ ul li a{
     border:none;
     background-color:var(--btn-bg);
     color:white;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--heading-font);
     font-weight:bold;
     box-shadow: 0rem 0.17rem 0.5rem 0.1rem rgba(0, 0, 0, 0.295);
 }
@@ -168,7 +170,7 @@ ul li a{
 }
 
 .section-2-summary h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--heading-font);
     font-size:1.4rem;
     text-align:center;
     font-weight:bold;
@@ -178,7 +180,7 @@ ul li a{
 }
 
 .section-2-summary  p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--body-font);
     color: var(--paragraph-color);
     letter-spacing:0.02rem;
     line-height: 1.5rem;
@@ -190,7 +192,6 @@ ul li a{
     display:flex;
     align-items: center;
     justify-content: center;
-    /* gap:0.01rem; */
     border-bottom:2px solid var(--fylo-exp-color);
     max-width:58%;
     margin-inline:auto;
@@ -206,7 +207,7 @@ ul li a{
 } 
 
 .fylo-example-txt{
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--body-font);
     text-align:center;
     font-size:1.15rem;
     color:var(--fylo-exp-color);
@@ -217,7 +218,7 @@ ul li a{
 .testimonial{
     box-shadow:0rem 0rem 0.7rem 0.4rem rgba(0, 0, 0, 0.047);
     border-radius:1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--body-font);
     font-size:1.5rem;
     padding-block:1.1rem;
     padding-inline:2rem;
@@ -237,7 +238,7 @@ ul li a{
 }
 
 span.testimonial-txt{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: var(--body-font);
     color:var(--footer-section-bg);
     font-size:1.2rem;
 }
@@ -265,7 +266,7 @@ span.testimonial-txt{
 
 p.name{
     font-size:1.2rem;
-    font-size: 'Open sans', sans-serif;  
+    font-size: var(--body-font);
     font-weight:bolder;
     text-transform:capitalize;
     color: var(--footer-section-bg);
@@ -273,9 +274,71 @@ p.name{
 
 p.stat{
     font-size:0.85rem;
-    font-size: 'Open sans', sans-serif;  
+    font-size: var(--body-font);
     text-transform:capitalize;
     color: var(--footer-section-bg);
 }
 
 /* SECTION THREE */
+.access-section{
+    background-color:var(--access-section-bg);
+    color:white;
+    padding-inline:1.5rem;
+    padding-block:3rem;
+}
+
+.text-access-section h1{
+    font-family: var(--heading-font);
+    font-size:1.4rem;
+    text-align:center;
+    padding-bottom:1rem;
+}
+
+.text-access-section p{
+    font-family: var(--body-font);
+    text-align:center;
+    font-weight:lighter;
+    padding-bottom:1rem;
+    width:90%;
+    margin-inline:auto;
+    margin-bottom:1rem;
+    line-height:1.7rem;
+}
+
+.access-form form input{
+    display:block;
+    min-width:90%;
+    margin-inline:auto;
+    font-family:var(--heading-font);
+    padding-inline:0.65rem;
+    padding-block:0.85rem;
+    border-radius:0.2rem;
+    border:1px solid var(--access-section-bg);
+    box-shadow:1px 1.2px 1px rgba(0, 0, 0, 0.23);
+}
+
+.access-form ::placeholder {
+    color: gray;
+    opacity: 0.4;
+    padding-inline:0.2rem;
+  }
+
+  .access-btn{
+    display:block;
+    min-width:90%;
+    margin-inline:auto;
+    margin-top:1rem;
+    padding-inline:0.65rem;
+    padding-block:0.85rem;
+    border:none;
+    border-radius:0.4rem;
+    background-color:var(--btn-bg);
+    color:white;
+    font-family: var(--heading-font);
+    font-weight:bold;
+ }
+
+ /* SECTION FOUR */
+ .fylo-footer{
+    background-color:var(--footer-section-bg);
+ }
