@@ -193,7 +193,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     border-bottom:2px solid var(--fylo-exp-color);
-    max-width:58%;
+    width:70%;
     margin-inline:auto;
     padding-bottom:-2rem;
 }
@@ -341,4 +341,65 @@ p.stat{
  /* SECTION FOUR */
  .fylo-footer{
     background-color:var(--footer-section-bg);
+    padding:1.5rem;
+    color:white;
+    font-family:var(--body-font);
+    font-weight:lighter;
  }
+
+ .fylo-footer-img{
+    margin-top:1.35rem;
+    margin-bottom:1.45rem;
+ }
+
+ .contact{
+    line-height:2.2rem;
+ }
+
+ .phone img, .email img{
+    margin-right:0.7rem;
+ }
+
+ .about-section{
+    margin-block:2rem;
+    line-height:2.2rem;
+ }
+
+ .contact-us-section{
+    line-height:2.2rem;
+    margin-block:2.2rem;
+ }
+
+ .social-links ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+}
+
+.social-links ul li img{
+    width:18px;
+}
+
+.social-links ul li{
+    padding-inline:0.8rem;
+    padding-block:0.69rem;
+    border-radius:5rem;
+    border:1px solid white;
+}
+
+/* FOOTER */
+footer{
+    margin-top:1.3rem;
+}
+
+footer p, footer p a{
+    color:var(--fylo-exp-color);
+    text-align:center;
+    font-size:0.8rem;
+}
+
+footer p a{
+    color: var(--access-section-bg
+    );
+}
