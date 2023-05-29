@@ -176,7 +176,7 @@ ul li a{
     font-weight:bold;
     color:var(--footer-section-bg);
     margin-top:4rem;
-    margin-bottom:1.7rem;
+    margin-bottom:1.9rem;
 }
 
 .section-2-summary  p{
@@ -184,6 +184,8 @@ ul li a{
     color: var(--paragraph-color);
     letter-spacing:0.02rem;
     line-height: 1.5rem;
+    max-width:100%;
+    margin-inline:0.6rem;
 }
 
 .fylo-testimonial-heading{
@@ -193,7 +195,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     border-bottom:2px solid var(--fylo-exp-color);
-    width:70%;
+    max-width:70%;
     margin-inline:auto;
     padding-bottom:-2rem;
 }
@@ -402,4 +404,60 @@ footer p, footer p a{
 footer p a{
     color: var(--access-section-bg
     );
+}
+
+@media screen and (min-width:500px) {
+    .logo{
+        width:110px;
+    }
+
+    .logo img{
+        width:100%;
+    }
+
+    .nav-links a{
+        font-size:1.2rem;
+    }
+
+    .img-section{
+        width:430px;
+    }
+
+    .img-section img{
+        width:100%;
+    }
+
+    .homepage .text-section h1{
+        font-size:1.77rem;
+    }
+
+    .homepage .text-section p{
+        font-size:1.2rem;
+        margin-bottom:2.7rem;
+    }
+
+    .min-screen-form form{
+        margin-block:1.4rem;
+    }
+
+    .min-screen-form form input{
+        padding:1.1rem;
+    }
+
+    button.get-started{
+        padding:1.1rem;
+        font-size:1rem;
+    }
+
+    .img-curved-section{
+        width:430px;
+    }
+
+    .img-curved-section img{
+        width:100%;
+        height:auto;
+    }
+
+    /* SECTION 2 */
+    
 }
