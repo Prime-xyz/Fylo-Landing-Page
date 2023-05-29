@@ -449,6 +449,7 @@ footer p a{
         font-size:1rem;
     }
 
+    /* SECTION 2 */
     .img-curved-section{
         width:430px;
     }
@@ -458,6 +459,15 @@ footer p a{
         height:auto;
     }
 
-    /* SECTION 2 */
-    
+    .section-2-summary h1{
+        font-size:1.5rem;
+    }
+
+    .fylo-testimonial-heading{
+        width:48%;
+    }
+
+    .testimonial{
+        padding-block:1.8rem;
+    }
 }
