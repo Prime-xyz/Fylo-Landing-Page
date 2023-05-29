@@ -560,7 +560,16 @@ footer p a{
     }
 
     .fylo-testimonial-heading{
-        width:48%;
+        width:35%;
+    }
+
+    .fylo-testimonial-heading img{
+        margin-left:-0.3rem;
+        width:35px;
+    }
+
+    .fylo-example-txt{
+        font-size:1.3rem;
     }
 
     .testimonial{
