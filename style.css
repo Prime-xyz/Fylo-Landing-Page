@@ -470,4 +470,30 @@ footer p a{
     .testimonial{
         padding-block:1.8rem;
     }
+
+    .testimonial-footer{
+        margin-top:0.8rem;
+    }
+
+    .testimonial-stats .name{
+       margin-bottom:0.4rem;
+    }
+
+    /* SECTION THREE */
+    .text-access-section h1{
+        font-size:1.5rem;
+    }
+
+    .access-form form{
+        margin-block:1.3rem;
+    }
+
+    .access-form form input{
+        padding:1.1rem;
+        border-radius:0.3rem;
+    }
+
+    .access-btn{
+        padding:1rem;
+    }
 }
