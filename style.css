@@ -574,6 +574,7 @@ footer p a{
 
     .testimonial{
         padding-block:1.8rem;
+        min-width:700px;
     }
 
     .testimonial-footer{
