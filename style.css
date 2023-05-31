@@ -656,6 +656,7 @@ footer p a{
     .min-screen-form form{
         margin-top:-1rem;
         width:60%;
+        margin-left: 1.25rem;
     }
 
     .min-screen-btn{
@@ -688,7 +689,39 @@ footer p a{
 
     .curved-section-content{
         display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
     }
+
+    .section-2-summary h1{
+        text-align:left;
+        font-size:2.4rem;
+        width:85%;
+        margin-left:2rem;
+    }
+
+    .section-2-summary p{
+        font-size:1.35rem;
+        width:75%;
+        margin-left:2rem;
+        
+    }
+
+    .break{
+        display:block;
+        margin-top:-1.2rem;
+    }
+
+    /* .img-curved-section{
+        min-width:650px;
+    }
+
+    .img-curved-section img{
+        display:block;
+        width:100%;
+        height:auto;
+    } */
 
 
 
