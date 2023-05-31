@@ -679,4 +679,18 @@ footer p a{
         width:100%;
         height:auto;
     }
+
+
+    /* SECTION TWO (CURVED SECTION) */
+      .curved-section{
+        margin-top:3.5rem;
+    }
+
+    .curved-section-content{
+        display:flex;
+    }
+
+
+
+
 }
