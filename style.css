@@ -603,3 +603,56 @@ footer p a{
         padding:1rem;
     }
 }
+
+@media screen and (min-width:1000px) and (max-width:2000px) {
+
+    header{
+        margin-top:1.5rem;
+    }
+
+    .logo{
+        margin-left:2rem;
+    }
+
+    .nav-links{
+        padding-inline:1rem;
+    }
+    
+    .nav-links a{
+        margin-inline:0.95rem;
+        font-size:1.5rem;
+    }
+
+    .homepage{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:row;
+    }
+
+    .homepage .text-section h1{
+        font-size:2.2rem;
+        text-align:left;
+        width:80%;
+        margin-left:2rem;
+    }
+
+    .homepage .text-section p{
+        font-size:1.35rem;
+        text-align:left;
+        width:80%;
+        margin-left:2rem;
+        line-height:1.7rem;
+        margin-top:0.5rem;
+    }
+
+    .min-screen-form form{
+       margin-top:-1rem;
+        width:60%;
+    }
+
+    .min-screen-btn{
+        /* display:block; */
+        width:40%;
+    }
+}
