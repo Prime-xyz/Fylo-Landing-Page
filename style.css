@@ -604,7 +604,7 @@ footer p a{
     }
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:1024px){
     header{
         margin-top:1.5rem;
     }
@@ -639,19 +639,44 @@ footer p a{
     .homepage .text-section p{
         font-size:1.35rem;
         text-align:left;
-        width:80%;
+        min-width:83%;
         margin-left:2rem;
-        line-height:1.7rem;
+        line-height:1.8rem;
         margin-top:0.5rem;
     }
 
+    .min-screen-form{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        margin-top:-1.8rem;
+    }
+
     .min-screen-form form{
-       margin-top:-1rem;
+        margin-top:-1rem;
         width:60%;
     }
 
     .min-screen-btn{
-        /* display:block; */
-        width:40%;
+        display:block;
+        min-width:35%;
+        box-shadow:none;
+        margin-top:1.5rem;
+    }
+
+    button.get-started {
+        padding-block: 1.15rem;
+        margin-left:-0.35rem;
+    }
+
+    .img-section{
+        min-width:650px;
+    }
+
+    .img-section img{
+        display:block;
+        width:100%;
+        height:auto;
     }
 }
