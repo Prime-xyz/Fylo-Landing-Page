@@ -712,18 +712,27 @@ footer p a{
         display:block;
         margin-top:-1.2rem;
     }
-
-    /* .img-curved-section{
-        min-width:650px;
+    
+    .fylo-testimonial-heading{
+        margin-inline:3rem; 
+        /* border:1px solid black; */
+        width:30%;
     }
 
-    .img-curved-section img{
+    .fylo-example-txt{
+        margin-left:-2rem;
+    }
+
+    .fylo-testimonial-heading img{
         display:block;
-        width:100%;
-        height:auto;
-    } */
+        margin-left:-1rem;
+    }
 
-
+    .testimonial-section{
+        border:1px solid red;
+        /* display:block; */
+        width:20%;
+    }
 
 
 }
