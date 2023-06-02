@@ -728,10 +728,9 @@ footer p a{
         margin-left:-1rem;
     }
 
-    .testimonial-section{
-        border:1px solid red;
-        /* display:block; */
-        width:20%;
+    .testimonial{
+        min-width:63%;
+        margin-inline:3rem;
     }
 
 
