@@ -715,7 +715,6 @@ footer p a{
     
     .fylo-testimonial-heading{
         margin-inline:3rem; 
-        /* border:1px solid black; */
         width:30%;
     }
 
@@ -730,8 +729,66 @@ footer p a{
 
     .testimonial{
         min-width:63%;
+        width:63%;
         margin-inline:3rem;
     }
 
+    .img-curved-section {
+        min-width:530px;
+    }
+
+    .img-curved-section img{
+        min-width:100%;
+        height:auto;
+    }
+
+    .access-section{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        min-width:100%;
+    }
+
+    .text-access-section{
+        width:50%;
+    }
+
+    .text-access-section h1{
+        text-align:left;
+        margin-left:3rem;
+    }
+
+    .text-access-section p{
+        text-align:left;
+        margin-inline:3rem;
+    }
+
+    .access-form{
+        width:45%;
+    }
+
+    .access-form form input{
+        padding:1.3rem;
+    }
+
+    .access-btn{
+        min-width:25%;
+        margin-left:2.3rem;
+        padding:1.2rem;
+    }
+
+    .footer-column-section{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding-inline:1.3rem;
+    }
+
+
+
+    .social-links{
+        /* border:1px solid black; */
+        margin-right:12rem;
+    }
 
 }
