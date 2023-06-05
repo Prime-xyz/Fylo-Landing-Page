@@ -380,15 +380,16 @@ p.stat{
 }
 
 .social-links ul li img{
-    width:18px;
+    width:13px;
 }
 
 .social-links ul li{
-    padding-inline:0.8rem;
-    padding-block:0.69rem;
+    padding-inline:0.7rem;
+    padding-block:0.3rem;
     border-radius:5rem;
     border:1px solid white;
     transition:.2s ease-in;
+    margin-top:-6rem;
 }
 
 .social-links ul li:hover{
@@ -396,8 +397,14 @@ p.stat{
     border:1px solid var(--btn-bg);
 }
 
-ul li img{
-    color:red;
+.about-section ul li a, .contact-us-section ul li a{
+    color:white;
+    font-size:1rem;
+    transition:.2s ease-in;
+}
+
+.about-section ul li a:hover, .contact-us-section ul li a:hover{
+    color:var(--btn-bg);
 }
 
 
@@ -813,16 +820,6 @@ footer p a{
         justify-content:space-between;
         align-items:center;
         margin-left:1.3rem;
-    }
-
-    .about-section ul li a, .contact-us-section ul li a{
-        color:white;
-        font-size:1rem;
-        transition:.2s ease-in;
-    }
-
-    .about-section ul li a:hover, .contact-us-section ul li a:hover{
-        color:var(--btn-bg);
     }
 
     .contact-section{
