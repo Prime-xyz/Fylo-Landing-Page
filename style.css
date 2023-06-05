@@ -414,19 +414,18 @@ p.stat{
 
 
 /* FOOTER */
-footer{
+.footer{
     margin-top:1.3rem;
 }
 
-footer p, footer p a{
+p.footer-tag, p.footer-tag a{
     color:var(--fylo-exp-color);
     text-align:center;
     font-size:0.8rem;
 }
 
-footer p a{
-    color: var(--access-section-bg
-    );
+p.footer-tag a{
+    color: var(--access-section-bg);
 }
 
 @media screen and (min-width:500px) {
