@@ -369,7 +369,7 @@ p.stat{
 
  .contact-us-section{
     line-height:2.2rem;
-    margin-block:2.2rem;
+    margin-block:2rem;
  }
 
  .social-links ul{
@@ -799,7 +799,6 @@ footer p a{
         margin-top:-0.4rem;
         min-width:32%;
         margin-left:1.9rem;
-        padding:1.2rem;
         transition:.3s ease-in;
     }
 
@@ -824,6 +823,7 @@ footer p a{
 
     .contact-section{
         margin-top:-3.6rem;
+        margin-left:1.8rem;
     }
 
     .contact-us-section{
@@ -831,7 +831,6 @@ footer p a{
     }
 
     .social-links{
-        /* border:1px solid black; */
         margin-right:12rem;
     }
 
