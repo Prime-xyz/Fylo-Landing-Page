@@ -200,6 +200,11 @@ ul li a{
     padding-bottom:-2rem;
 }
 
+.fylo-example-txt:hover{
+    border-bottom:hsla(170, 45%, 43%, 0.607);
+    cursor:pointer;
+}
+
 .fylo-testimonial-heading img{
     display:block;
     width:27px;
@@ -744,11 +749,16 @@ footer p a{
 
     .fylo-example-txt{
         margin-left:-2rem;
+        transition:.4s ease-in;
     }
 
     .fylo-testimonial-heading img{
         display:block;
         margin-left:-1rem;
+    }
+
+    .fylo-example-txt:hover{
+        color: hsla(170, 45%, 43%, 0.607);
     }
 
     .testimonial{
