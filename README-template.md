@@ -21,12 +21,12 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Prime-Fylo-Landing-Page.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Prime-xyz/Fylo-Landing-Page)
+- Live Site URL: (https://prime-fylo-landing-page.vercel.app/)
 
 ## My process
 
@@ -36,12 +36,8 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-For styles
+- AOS
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
