@@ -36,7 +36,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- AOS
+- AOS Library
 
 
 ## Author
