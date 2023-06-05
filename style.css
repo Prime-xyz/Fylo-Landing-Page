@@ -779,11 +779,21 @@ footer p a{
 
     .footer-column-section{
         display:flex;
-        justify-content:space-between;
+        justify-content:center;
         align-items:center;
+        gap:12rem;
         padding-inline:1.3rem;
     }
 
+    .contact-section{
+        margin-top:-3.7rem;
+    }
+
+    .contact-us-section{
+        margin-top:-0.9rem;
+    }
+
+   
 
 
     .social-links{
